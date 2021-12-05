@@ -1,0 +1,401 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Horion/Google Drive/Documentos/UTFPR/8o Periodo/PCIS/Projetos/05_MatrixMultiplier/simulation/qsim
+Eaddthree
+Z1 w1559743193
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+Z8 dD:/Google Drive/Documentos/UTFPR/8o Periodo/PCIS/Projetos/05_MatrixMultiplier/simulation/qsim
+Z9 8Matrix_Multiplier.vho
+Z10 FMatrix_Multiplier.vho
+l0
+L77
+VhOCDKP;kJXCY<CL;=5>`e1
+!s100 Mdfb3KPZ0H=3V>`g7ldE92
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1559743195
+!i10b 1
+Z13 !s108 1559743195.000000
+Z14 !s90 -work|work|Matrix_Multiplier.vho|
+Z15 !s107 Matrix_Multiplier.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 addthree 0 22 hOCDKP;kJXCY<CL;=5>`e1
+l127
+L95
+VEmMe3WJkD;;U7V@Y==S330
+!s100 6ziKU_882A_8AOd42IoSP1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eaddthree_vhd_vec_tst
+Z18 w1559743192
+R5
+R6
+R8
+Z19 8Waveform3.vwf.vht
+Z20 FWaveform3.vwf.vht
+l0
+L31
+VonS@5g^`Fdz4zT;UzXOL83
+!s100 hQzKF1dmRNh_:h`jMBlRB2
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|Waveform3.vwf.vht|
+Z22 !s107 Waveform3.vwf.vht|
+!i113 1
+R16
+R17
+Aaddthree_arch
+R5
+R6
+DEx4 work 20 addthree_vhd_vec_tst 0 22 onS@5g^`Fdz4zT;UzXOL83
+l44
+L33
+VR7U4FQl?U_94ndM@gM2Xk2
+!s100 IBYVH42F;ONDjZKVAInXl0
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17
+Ebinarytobcd
+Z23 w1559787849
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L77
+VNik0TS1=l7K4bX:hO2RLY2
+!s100 e7C<F>C1Fg>I01@?<aH8G3
+R11
+32
+Z24 !s110 1559787855
+!i10b 1
+Z25 !s108 1559787855.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 binarytobcd 0 22 Nik0TS1=l7K4bX:hO2RLY2
+l200
+L111
+VgzjZJeR^Mbh=e_EbzSVb50
+!s100 gi:IZX9;IL=97z?bnEDXB2
+R11
+32
+R24
+!i10b 1
+R25
+R14
+R15
+!i113 1
+R16
+R17
+Ebinarytobcd_vhd_vec_tst
+Z26 w1559787848
+R5
+R6
+R8
+Z27 8Waveform1.vwf.vht
+Z28 FWaveform1.vwf.vht
+l0
+L31
+VQ`P<Imh477]BSSWD_^AGJ2
+!s100 M>AjfP0aiaQMS^bTcBM4A2
+R11
+32
+R24
+!i10b 1
+R25
+Z29 !s90 -work|work|Waveform1.vwf.vht|
+Z30 !s107 Waveform1.vwf.vht|
+!i113 1
+R16
+R17
+Abinarytobcd_arch
+R5
+R6
+DEx4 work 23 binarytobcd_vhd_vec_tst 0 22 Q`P<Imh477]BSSWD_^AGJ2
+l44
+L33
+Vd]oB]BnKc2[ZSooIK1I1W2
+!s100 58SkeieTf^akbb<3zo8YT0
+R11
+32
+R24
+!i10b 1
+R25
+R29
+R30
+!i113 1
+R16
+R17
+Ehard_block
+Z31 w1560253723
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R9
+R10
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R11
+32
+!s110 1560253742
+!i10b 1
+Z32 !s108 1560253739.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R11
+32
+Z33 !s110 1560253743
+!i10b 1
+R32
+R14
+R15
+!i113 1
+R16
+R17
+Eholddata
+Z34 w1559046837
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R9
+R10
+l0
+L77
+Vh2U[T:0F6R4VQVG>:8;dH0
+!s100 f`LXFBT=]`JcbcA@dHnZL0
+R11
+32
+Z35 !s110 1559046840
+!i10b 1
+Z36 !s108 1559046839.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 holddata 0 22 h2U[T:0F6R4VQVG>:8;dH0
+l136
+L98
+VeBV35GnKeO;4hLzMRD?WX2
+!s100 @7Nj3KY?KSVKGfPD3faS]1
+R11
+32
+R35
+!i10b 1
+R36
+R14
+R15
+!i113 1
+R16
+R17
+Eholddata_vhd_vec_tst
+Z37 w1559046835
+R5
+R6
+R0
+R27
+R28
+l0
+L31
+VG^R74Z<nk8<[YHa?J2jSX1
+!s100 EK=1OAEfLSNMmbf65ZGW61
+R11
+32
+R35
+!i10b 1
+Z38 !s108 1559046840.000000
+R29
+R30
+!i113 1
+R16
+R17
+Aholddata_arch
+R5
+R6
+DEx4 work 20 holddata_vhd_vec_tst 0 22 G^R74Z<nk8<[YHa?J2jSX1
+l46
+L33
+VDUJgQnZKZZ;Ic660Qb72?1
+!s100 NXCa4[:a4>La;gNFL8eB30
+R11
+32
+R35
+!i10b 1
+R38
+R29
+R30
+!i113 1
+R16
+R17
+Ematrix_multiplier
+R31
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R9
+R10
+l0
+L77
+V6I?AYTEoY^PTgCZACf]zX2
+!s100 8`z5OY`3jea_aM=d3dj`62
+R11
+32
+R33
+!i10b 1
+R32
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 17 matrix_multiplier 0 22 6I?AYTEoY^PTgCZACf]zX2
+l1736
+L248
+VZA>7T3c>O0MG_c8TVoj@U3
+!s100 Gg^z`@Oc?I0dUX7WPNkCh3
+R11
+32
+R33
+!i10b 1
+R32
+R14
+R15
+!i113 1
+R16
+R17
+Ematrix_multiplier_vhd_vec_tst
+Z39 w1560253714
+R5
+R6
+R0
+Z40 8Waveform.vwf.vht
+Z41 FWaveform.vwf.vht
+l0
+L31
+VlF@=`0QIHA]0=;K`C^iRk0
+!s100 7oQcVC;WFDcO7ffX?d=:[0
+R11
+32
+Z42 !s110 1560253745
+!i10b 1
+Z43 !s108 1560253744.000000
+Z44 !s90 -work|work|Waveform.vwf.vht|
+Z45 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Amatrix_multiplier_arch
+R5
+R6
+Z46 DEx4 work 29 matrix_multiplier_vhd_vec_tst 0 22 lF@=`0QIHA]0=;K`C^iRk0
+l78
+L33
+Z47 VHfEeT>5;O2Oo5dW<gU?g80
+Z48 !s100 _?9Bzgm;@2fZSbgDEY?8H0
+R11
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R16
+R17

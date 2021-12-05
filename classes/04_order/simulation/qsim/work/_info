@@ -1,0 +1,319 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Horion/Google Drive/Documentos/UTFPR/8o Periodo/Projetos de Circuitos Semidedicados/Projetos/04_Ordenador/simulation/qsim
+Echeckbit
+Z1 w1557232210
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z10 8Ordenador.vho
+Z11 FOrdenador.vho
+l0
+L37
+V3RK>GLi@ogJz`A;YB0nN40
+!s100 L;Cj:<cUmkbIfFm0`e1nk3
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1557232211
+!i10b 1
+Z14 !s108 1557232211.000000
+Z15 !s90 -work|work|Ordenador.vho|
+Z16 !s107 Ordenador.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 8 checkbit 0 22 3RK>GLi@ogJz`A;YB0nN40
+l146
+L45
+V@?0_Q;nVPb9KlSe4kdi3?3
+!s100 fo<mBo6zETVf>Zd=7XD^Q0
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Echeckbit_vhd_vec_tst
+Z19 w1557232208
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L31
+VoL4zUWg_9EQQc;J?1ORM@0
+!s100 DIXYGd?jhEIhP84DSkk;W0
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Acheckbit_arch
+R7
+R8
+DEx4 work 20 checkbit_vhd_vec_tst 0 22 oL4zUWg_9EQQc;J?1ORM@0
+l46
+L33
+V@P`KWL3h8Xm8>RcgD<H3[3
+!s100 _F;ZA[HCBJH2=8L8ijA?Y1
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
+Ehard_block
+Z24 w1558640580
+R4
+R5
+R6
+R7
+R8
+R9
+Z25 dC:/Users/Horion/Google Drive/Documentos/UTFPR/8o Periodo/PCIS/Projetos/04_Ordenador/simulation/qsim
+R10
+R11
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R12
+32
+Z26 !s110 1558640582
+!i10b 1
+Z27 !s108 1558640582.000000
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R12
+32
+R26
+!i10b 1
+R27
+R15
+R16
+!i113 1
+R17
+R18
+Eordenador
+Z28 w1558583218
+R4
+R5
+R6
+R7
+R8
+R9
+Z29 dD:/Google Drive/Documentos/UTFPR/8o Periodo/Projetos de Circuitos Semidedicados/Projetos/04_Ordenador/simulation/qsim
+R10
+R11
+l0
+L77
+Vbd2P=:j9zczDWiAHFf3bB0
+!s100 6S??Sze>7mN@UN8W?G=Yf0
+R12
+32
+Z30 !s110 1558583225
+!i10b 1
+Z31 !s108 1558583224.000000
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 9 ordenador 0 22 bd2P=:j9zczDWiAHFf3bB0
+l266
+L125
+V3lBn:@U8PNT0S7<YLdS3C3
+!s100 GQfCiREWISgcR=WQW<_A53
+R12
+32
+R30
+!i10b 1
+R31
+R15
+R16
+!i113 1
+R17
+R18
+Eordenador_vhd_vec_tst
+Z32 w1558583217
+R7
+R8
+R29
+Z33 8Waveform1.vwf.vht
+Z34 FWaveform1.vwf.vht
+l0
+L31
+V>:=P5eLzhGLLij[WXcIWk3
+!s100 6WQNHacK5g_U5GJ[@e=0a0
+R12
+32
+R30
+!i10b 1
+Z35 !s108 1558583225.000000
+Z36 !s90 -work|work|Waveform1.vwf.vht|
+Z37 !s107 Waveform1.vwf.vht|
+!i113 1
+R17
+R18
+Aordenador_arch
+R7
+R8
+DEx4 work 21 ordenador_vhd_vec_tst 0 22 >:=P5eLzhGLLij[WXcIWk3
+l46
+L33
+Vo7K495Mk7>?7ED5VPRcPL3
+!s100 6:=;zKWOLWJ^EfBbGZ^<=3
+R12
+32
+R30
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R17
+R18
+Esistemacompleto
+R24
+R4
+R5
+R6
+R7
+R8
+R9
+R25
+R10
+R11
+l0
+L77
+VLd<8hV`ZnO9mC9L^V1nAS3
+!s100 bQPUVJcK3WmDXdjHc``1W3
+R12
+32
+R26
+!i10b 1
+R27
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 15 sistemacompleto 0 22 Ld<8hV`ZnO9mC9L^V1nAS3
+l247
+L119
+V;i@[c5M>:6dzQR0VRc[<>1
+!s100 ;DcPe6FcmNY5AdaBGcb_c0
+R12
+32
+R26
+!i10b 1
+R27
+R15
+R16
+!i113 1
+R17
+R18
+Esistemacompleto_vhd_vec_tst
+Z38 w1558640576
+R7
+R8
+R25
+R20
+R21
+l0
+L31
+VTfd<JYad=Z>V2I9JXTQh^1
+!s100 @^UcjjWAG@9mj0g9D]Ldf3
+R12
+32
+Z39 !s110 1558640583
+!i10b 1
+Z40 !s108 1558640583.000000
+R22
+R23
+!i113 1
+R17
+R18
+Asistemacompleto_arch
+R7
+R8
+Z41 DEx4 work 27 sistemacompleto_vhd_vec_tst 0 22 Tfd<JYad=Z>V2I9JXTQh^1
+l44
+L33
+V0mZX3A:FzD2XJElA>6SCB2
+!s100 FmngPl92DjjLZZCH[iMZf0
+R12
+32
+R39
+!i10b 1
+R40
+R22
+R23
+!i113 1
+R17
+R18

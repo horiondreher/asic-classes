@@ -1,0 +1,49 @@
+LIBRARY ieee;
+USE ieee.numeric_std.ALL;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY sevSeg_Out IS
+	PORT(A : IN unsigned(3 DOWNTO 0); S_SEG0, S_SEG1 : OUT unsigned(6 DOWNTO 0));
+END ENTITY;
+
+ARCHITECTURE sevSeg_Out OF sevSeg_Out IS
+BEGIN 
+	WITH A SELECT
+		S_SEG0 <=   "1000000" WHEN "0000",
+						"1111001" WHEN "0001",
+						"0100100" WHEN "0011",
+						"0110000" WHEN "0010",
+						"0011001" WHEN "0110",
+						"0010010" WHEN "0111",
+						"0000010" WHEN "0101",
+						"1111000" WHEN "0100",
+						"0000000" WHEN "1100",
+						"0011000" WHEN "1101",
+						"1000000" WHEN "1111",
+						"1111001" WHEN "1110",
+						"0100100" WHEN "1010",
+						"0110000" WHEN "1011",
+						"0011001" WHEN "1001",
+						"0010010" WHEN "1000",
+						"XXXXXXX" WHEN OTHERS;
+		
+	WITH A SELECT						
+		S_SEG1 <=   "1000000" WHEN "0000",
+						"1000000" WHEN "0001",
+						"1000000" WHEN "0011",
+						"1000000" WHEN "0010",
+						"1000000" WHEN "0110",
+						"1000000" WHEN "0111",
+						"1000000" WHEN "0101",
+						"1000000" WHEN "0100",
+						"1000000" WHEN "1100",
+						"1000000" WHEN "1101",
+						"1111001" WHEN "1111",
+						"1111001" WHEN "1110",
+						"1111001" WHEN "1010",
+						"1111001" WHEN "1011",
+						"1111001" WHEN "1001",
+						"1111001" WHEN "1000",
+						"XXXXXXX" WHEN OTHERS;
+		
+END ARCHITECTURE;

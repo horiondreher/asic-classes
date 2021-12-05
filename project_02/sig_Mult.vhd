@@ -1,0 +1,18 @@
+LIBRARY ieee;
+USE ieee.numeric_std.ALL;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY sig_Mult IS
+	PORT (sig1, sig2: IN unsigned(51 DOWNTO 0);
+			sigRes: OUT unsigned(105 DOWNTO 0));
+END ENTITY;
+
+ARCHITECTURE sig_Mult OF sig_Mult IS
+	SIGNAL auxSig1: unsigned(52 DOWNTO 0);
+	SIGNAL auxSig2: unsigned(52 DOWNTO 0);
+BEGIN
+		auxSig1 <= 	sig1 + "10000000000000000000000000000000000000000000000000000";
+		auxSig2 <= 	sig2 + "10000000000000000000000000000000000000000000000000000";
+		
+		sigRes <= 	auxSig1*auxSig2;
+END ARCHITECTURE;

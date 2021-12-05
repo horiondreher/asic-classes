@@ -1,0 +1,19 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY Mux IS
+
+	PORT(Bit0,Bit1, Qin : IN BIT;
+		  S: OUT BIT);
+	  
+END ENTITY;
+
+ARCHITECTURE Mux OF Mux IS
+
+BEGIN
+
+	WITH Qin SELECT
+	S <= 	Bit0 WHEN '0',
+			Bit1 WHEN '1';
+
+END ARCHITECTURE;

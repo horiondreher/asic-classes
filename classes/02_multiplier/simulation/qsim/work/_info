@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Horion/Google Drive/Documentos/UTFPR/8o Periodo/Projetos de Circuitos Semidedicados/Projetos/02_Multiplicador/simulation/qsim
+Ehard_block
+Z1 w1556022952
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8Multiplier.vho
+Z9 FMultiplier.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1556022954
+!i10b 1
+Z12 !s108 1556022953.000000
+Z13 !s90 -work|work|Multiplier.vho|
+Z14 !s107 Multiplier.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emultiplier
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L77
+V9NX9IEFPE3L<N;eeoV;gP2
+!s100 >4^52L8?lcHeidaUiO`@T1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 multiplier 0 22 9NX9IEFPE3L<N;eeoV;gP2
+l193
+L108
+VoSXMmMCQ`[?Yc;>RSL3J`2
+!s100 ]n1]39>SKLo4VQ05>XoU83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emultiplier_vhd_vec_tst
+Z17 w1556022949
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VLCJi9L[e>WAj]7RBj`UHO2
+!s100 i1hc2I[HeNb8UlQX<fBgW3
+R10
+32
+R11
+!i10b 1
+Z20 !s108 1556022954.000000
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Amultiplier_arch
+R5
+R6
+Z23 DEx4 work 22 multiplier_vhd_vec_tst 0 22 LCJi9L[e>WAj]7RBj`UHO2
+l50
+L33
+Z24 Vlgz4f<^AfdM`@nb=Znm<F1
+Z25 !s100 =5egEfna@OW_;o;4jlOi>1
+R10
+32
+R11
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R15
+R16

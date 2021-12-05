@@ -1,0 +1,237 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Horion/Google Drive/Documentos/UTFPR/8o Periodo/PCIS/Projetos/06_Relogio_Digital/simulation/qsim
+Ehard_block
+Z1 w1562266938
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8Relogio_Digital.vho
+Z9 FRelogio_Digital.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1562266942
+!i10b 1
+Z12 !s108 1562266942.000000
+Z13 !s90 -work|work|Relogio_Digital.vho|
+Z14 !s107 Relogio_Digital.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Erelogio_digital
+Z17 w1560456024
+R3
+R7
+R2
+Z18 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+R4
+R5
+R6
+Z19 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+R8
+R9
+l0
+L36
+VCQE]f8>b>7WUDdW:R@<A[1
+!s100 AV]HzCaOQD[Y`8EdZ>laZ2
+R10
+32
+Z20 !s110 1560456026
+!i10b 1
+Z21 !s108 1560456026.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 15 relogio_digital 0 22 CQE]f8>b>7WUDdW:R@<A[1
+l96
+L44
+VGBeZR8DWWoWR45I[;mCCL1
+!s100 GPZEMXH:2FTa@Q8VCLSa?1
+R10
+32
+R20
+!i10b 1
+R21
+R13
+R14
+!i113 1
+R15
+R16
+Erelogio_digital_vhd_vec_tst
+Z22 w1560456022
+R5
+R6
+R0
+Z23 8Waveform.vwf.vht
+Z24 FWaveform.vwf.vht
+l0
+L31
+V1V<1G^@4Bi[nO:6fQdkzf0
+!s100 BPQ?g:nzZlPUVCAL`^`MC3
+R10
+32
+R20
+!i10b 1
+R21
+Z25 !s90 -work|work|Waveform.vwf.vht|
+Z26 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Arelogio_digital_arch
+R5
+R6
+DEx4 work 27 relogio_digital_vhd_vec_tst 0 22 1V<1G^@4Bi[nO:6fQdkzf0
+l46
+L33
+VG0lm4?1?f48`RPK28mQEZ1
+!s100 K?e3h>GFnnR5>mlLk^`?N1
+R10
+32
+R20
+!i10b 1
+R21
+R25
+R26
+!i113 1
+R15
+R16
+Esistema
+R1
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+R0
+R8
+R9
+l0
+L79
+VB7ik7>_2:XGXoHEO4_CCz1
+!s100 3U2Bo[^`[dW][Bm=A2QW_1
+R10
+32
+Z27 !s110 1562266943
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R18
+R4
+R5
+R6
+R19
+DEx4 work 7 sistema 0 22 B7ik7>_2:XGXoHEO4_CCz1
+l495
+L159
+V@lS]@dHPJ201GIdoMQR4B1
+!s100 a?H::K5aITFQRh1D8A;gZ3
+R10
+32
+R27
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Esistema_vhd_vec_tst
+Z28 w1562266934
+R5
+R6
+R0
+R23
+R24
+l0
+L31
+VPmFYDXh:Nmc>kDbCL?n@=1
+!s100 ioenDGF3GENeCCF:FNo3J3
+R10
+32
+Z29 !s110 1562266944
+!i10b 1
+Z30 !s108 1562266943.000000
+R25
+R26
+!i113 1
+R15
+R16
+Asistema_arch
+R5
+R6
+Z31 DEx4 work 19 sistema_vhd_vec_tst 0 22 PmFYDXh:Nmc>kDbCL?n@=1
+l64
+L33
+Z32 VcUbH[JC=382fih6K_[i111
+Z33 !s100 2=JR6>4d<`FCX7Ke0^NVm0
+R10
+32
+R29
+!i10b 1
+R30
+R25
+R26
+!i113 1
+R15
+R16

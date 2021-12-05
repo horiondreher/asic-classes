@@ -1,0 +1,18 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY FA IS
+
+	PORT(A,B,Cin : IN BIT;
+		  S, Cout : OUT BIT);
+	  
+END ENTITY;
+
+ARCHITECTURE FA OF FA IS
+
+BEGIN
+
+	S <= (A XOR B XOR Cin);
+	Cout <= (Cin AND (A XOR B)) OR (A AND B);
+
+END ARCHITECTURE;
